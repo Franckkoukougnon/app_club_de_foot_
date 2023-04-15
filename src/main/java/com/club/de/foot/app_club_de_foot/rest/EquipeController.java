@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/equipe")
-public class RestaurantController {
+public class EquipeController {
 
     @GetMapping("/listeteam")
     public List<Equipe> getListOfEquipe() {
